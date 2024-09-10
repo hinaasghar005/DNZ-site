@@ -37,7 +37,7 @@ html, body {
     background: #F2FFF5;
 
   }
-  @media (max-width:550px) {
+  @media (max-width:450px) {
     .inputs{
       width: 339px; 
       height: 45px;
