@@ -1,0 +1,30 @@
+html, body {
+    height: 100vh;
+    margin: 0;
+    background:#FFFFFF;
+  }
+
+
+  .t-hight{
+    height: 100vh;
+    background:#FFFFFF;
+
+  }
+  
+  .container-fluid {
+    height: 100vh;
+  }
+  
+  .login-form {
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  .img-fluid {
+    object-fit: cover;
+    height: 100%;
+    vertical-align: end;
+  }
+  .right{
+    padding-right: 0px !important;
+  }
