@@ -1,0 +1,58 @@
+.form-label {
+    font-weight: bold;
+  }
+  .form-container {
+    max-width: 2000px;
+    margin: 50px auto;
+    background-color: #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 15px;
+  }
+  .form-label {
+    font-weight: bold;
+    color: white;
+  }
+  .form-control, .form-select {
+    border-radius: 10px;
+    padding: 10px 15px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  .form-control:focus, .form-select:focus {
+    box-shadow: 0px 0px 8px #BEEBC2;
+    border-color: #8DC73F;
+  }
+  .submit-btn {
+    background-color: #8DC73F;
+    border-color: #BEEBC2;
+    border-radius: 30px;
+    padding: 10px 25px;
+    color: #fff;
+    transition: background-color 0.3s ease;
+  }
+  .submit-btn:hover {
+    background-color: #218838;
+  }
+  .card-header {
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 15px 15px 15px 15px;
+    padding: 20px;
+    text-align: center;
+  }
+  .img
+    {
+      background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), /* Overlay */  url(/assets/Rectangle\ 33.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      width: 100%;
+      
+      background-size: cover;
+
+    }
+    .bg{
+        background:#8DC73F;
+        color: black;
+        
+    }
+    
