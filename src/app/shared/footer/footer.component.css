@@ -1,0 +1,23 @@
+section{
+    background: #BEEBC2;
+    color:  #1c4f32;
+}
+h2{
+    margin-top: 20px;
+    font-size: 24px;
+    line-height: 14px;
+}
+.links{
+    font-size: 12px;
+}
+hr{
+    height: 4px;
+    width: 60%;
+    background: radial-gradient(50% 50% at 50% 50%, #32794F 0%, rgba(50, 121, 79, 0) 100%);
+}
+i{
+    color: #1c4f32;
+    font-size: 25px;
+    background-color: white;
+    border-radius: 50%;
+}
