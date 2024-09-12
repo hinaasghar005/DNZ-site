@@ -1,0 +1,62 @@
+.review-card {
+    background-color: #F6FAF5;
+    border-radius: 15px;
+    box-shadow: -2px 2px 3px 3px #00000040;
+    padding: 20px;
+    margin: 20px 0;
+}
+.review-text {
+    font-size: .8rem;
+    color: #6b6b6b;
+}
+.review-header {
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: #2ca358;
+    line-height: 1;
+}
+.reviewer {
+    font-size: 1rem;
+    font-weight: bold;
+}
+.reviewer-info {
+    font-size: 0.8rem;
+    color: #888;
+}
+.image-section img {
+    border-radius: 15px;
+    width: 100%;
+    height: auto;
+}
+.highlight-text {
+    color: #ff4b2b;
+    font-weight: bold;
+}
+.tag-text{
+    font-size: 10px;
+}
+@media screen and (min-width:500px){
+    .tag-text{
+    font-size: 20px;
+    }
+}
+
+/* Custom styles for the carousel indicators */
+.carousel-indicators {
+    bottom: -50px;
+    color: transparent; /* Move the dots lower */
+  }
+  
+  .carousel-indicators li {
+    background-color: grey;  /* Inactive dots will be grey */
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin: 0 5px;
+  }
+  
+  .carousel-indicators .active {
+    background-color: green;  /* Active dot will be green */
+  }
+  
+  
