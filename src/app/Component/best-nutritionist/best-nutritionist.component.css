@@ -1,0 +1,89 @@
+
+  .nutritionist-section {
+    padding: 40px 0;
+  }
+  
+  .title-box h3 {
+    font-size: 20px;
+    color: #fff;
+    background-color: #2f855a;
+    padding: 5px 10px;
+    display: inline-block;
+    border-radius: 5px;
+  }
+  
+  .title-box h1 {
+    font-size: 50px;
+    color: #2f855a;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .text-content p {
+    font-size: 16px;
+    color: #4a5568;
+    margin-bottom: 20px;
+  }
+  
+  .qualifications {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .qualifications li {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 10px;
+  }
+  
+  .qualifications li .circle {
+    width: 15px;
+    height: 15px;
+    background-color: #e53e3e; /* Red */
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .image-container {
+    position: relative;
+  }
+  
+  .image-container img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .image-circles {
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    border: 2px solid #2f855a;
+    top: -25px;
+    left: -25px;
+    z-index: -1;
+  }
+  
+  @media (max-width: 768px) {
+    .title-box h1 {
+      font-size: 40px;
+    }
+    .title-box h3 {
+      font-size: 18px;
+    }
+    .image-container img {
+      width: 250px;
+      height: 250px;
+    }
+    .image-circles {
+      width: 300px;
+      height: 300px;
+      top: -15px;
+      left: -15px;
+    }
+  }
+  

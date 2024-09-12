@@ -1,0 +1,10 @@
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 200" fill="#a5eaa0" preserveAspectRatio="none" style="height: 60px;transform: scaleY(-1);width:100%;">
+    <!-- First curve path with more frequent waves -->
+    <path  fill="#a5eaa0" opacity="0.53" d="M0,40 C50,0 150,80 200,40 C250,0 350,80 400,40 C450,0 550,80 600,40 C650,0 750,80 800,40 C850,0 950,80 1000,40 V200 H0 Z" ></path>
+    
+    <!-- Second curve path with more frequent waves -->
+    <path  fill="#a5eaa0" opacity="0.70" d="M0,60 C50,10 150,90 200,60 C250,30 350,110 400,60 C450,30 550,110 600,60 C650,30 750,110 800,60 C850,30 950,110 1000,60 V200 H0 Z" ></path>
+    
+    <!-- Third curve path with more frequent waves and extra space at the bottom -->
+    <path fill="#a5eaa0" d="M0,80 C50,20 150,100 200,80 C250,40 350,120 400,80 C450,40 550,120 600,80 C650,40 750,120 800,80 C850,40 950,120 1000,80 V200 H0 Z" ></path>
+  </svg>

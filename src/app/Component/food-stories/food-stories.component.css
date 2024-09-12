@@ -51,6 +51,7 @@
 .icon-section .icon {
     color: #28a745;
     font-size: 20px;
+    font-weight: bold;
 }
 @media screen and (min-width:500px){
     .icon-section p{
